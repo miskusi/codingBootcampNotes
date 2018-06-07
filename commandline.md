@@ -3,14 +3,20 @@
 ## pwd
 lists present working directory
 
-## cd <directoryName>
+## cd < directoryName >
 Change present working directory to PWD/directoryName
 
-## mkdir <directoryName>
+## mkdir < directoryName >
 Makes new directory called directoryName in the PWD
 
-## touch <fileName >
+## rmdir < directory name >
+Removes the directory called directoryName in the PWD
+
+## touch < fileName >
 Makes a new file called fileName in PWD
+
+## rm < directoryName >
+Removes a file
 
 ## ls <directoryName?>
 Lists all files in PWD or directory
@@ -18,7 +24,34 @@ Lists all files in PWD or directory
 ## clear
 Clears text off the terminal
 
+### Special Directories
+
+~ - Home
+.. - Up a level
+. - Same level
+/ - Root Directory (c:/ drive)
+
+
+
 # GIT commands
+
+## Clone < repoURL >
+Downloads repository to your local PWD
+
+## init
+Starts a local git repository
+
+## add < file >
+Tracks file or folder (you can use "git add ." to track everything)
+
+## commit <-m>  < message >
+Takes a snapshot of the directory
+
+## push < server? > < branch >
+Send your commits to the server
+
+## pull < server? > < branch >
+Receives commits from server
 
 When pushing to github, follow these steps:
 
